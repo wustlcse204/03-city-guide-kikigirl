@@ -14,5 +14,18 @@ h1 {
 }
 /* Styling heading 2 */
 h2{
-    color: rgb(0, 255, 204);
+    color: rgb(51, 204, 255);
+}
+/* Styling embedded map */
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
 }
