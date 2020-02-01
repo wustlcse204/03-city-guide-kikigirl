@@ -1,0 +1,10 @@
+/* Styling Heading Images */
+.column {
+    float: left;
+    width: 33.33%;
+}
+/* clearing float */
+.row::after {
+    content: "";
+    clear: both;
+}
