@@ -1,3 +1,7 @@
+/* Styling the main heading */
+h1 {
+    background-color: mediumturquoise;
+}
 /* Styling Heading Images */
 .column {
     float: left;
