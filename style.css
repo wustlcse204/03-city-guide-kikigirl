@@ -14,12 +14,12 @@ h1 {
 }
 /* Styling heading 2 */
 h2{
-    color: rgb(51, 204, 255);
+    color: rgb(51, 153, 255);
 }
 /* Styling embedded map */
 .mapouter {
-    position:relative;
-    text-align:right;
+    position: relative;
+    text-align:left;
     height:500px;
     width:600px;
 }
