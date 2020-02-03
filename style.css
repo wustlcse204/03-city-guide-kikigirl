@@ -7,6 +7,7 @@ h1 {
     float: left;
     width: 33.33%;
     font-style: italic;
+    font-weight: bold;
 }
 /* clearing float */
 .row::after {
@@ -15,16 +16,18 @@ h1 {
 }
 /* Styling heading 2 */
 h2{
-    color: rgb(51, 153, 255);
+    color: hsl(187, 70%, 33%);
 }
-/*Font size for location description*/
+/*Font styling for paragraphs*/
 p {
     font-size: 20px;
 }
 /* Styling embedded map */
 .mapouter {
-    position: absolute;
+    position:relative;
     text-align:center;
+    /*float: right;*/
+    /*width: 50%;*/
     height:500px;
     width:600px;
 }
@@ -33,4 +36,15 @@ p {
     background:none!important;
     height:500px;
     width:600px;
+}
+/*styling rocky image pic*/
+.rockyimage {
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
