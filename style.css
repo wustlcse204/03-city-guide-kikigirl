@@ -1,6 +1,10 @@
 /* Styling the main heading */
 h1 {
     background-color: rgb(0, 255, 204);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 /* Styling Heading Images */
 .column {
