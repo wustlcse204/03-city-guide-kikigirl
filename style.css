@@ -71,7 +71,16 @@ a:hover {
     text-align:center;
 }
 /*styling table*/
-.table{
-    text-align:center;
+#table1{
+    width:75%; 
+    margin-left:15%; 
+    margin-right:15%;
 }
+#table1 td, #table1 th{
+    border: 1px solid #000000;
+    text-align:center;
+} 
+    
+
+
 
