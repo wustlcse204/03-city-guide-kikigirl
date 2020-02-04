@@ -21,15 +21,20 @@ h1 {
 /* Styling heading 2 */
 h2{
     color: hsl(187, 70%, 33%);
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Font styling for paragraphs*/
-p {
+#location {
+    background-color: hsl(187, 70%, 40%);
     font-size: 20px;
+    font-weight: bold;
 }
 /* Styling embedded map */
 .mapouter {
     position:relative;
     text-align:center;
+    font-style: italic;
+    font-weight: bold;
     /*float: right;*/
     /*width: 50%;*/
     height:500px;
@@ -45,10 +50,19 @@ p {
 .rockyimage {
     position: absolute;
     top: 600px;
-    left: 900px;
+    left: 825px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+/*styling lava rock description */
+#lava{
+    font-size: 20px;
+}
+/* styling link */
+a:hover {
+    color: rgb(0, 255, 204);
+}
+
