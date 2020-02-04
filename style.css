@@ -1,10 +1,7 @@
 /* Styling the main heading */
 h1 {
     background-color: rgb(0, 255, 204);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align:center;
 }
 /* Styling Heading Images */
 .column {
@@ -61,7 +58,7 @@ h2{
 #lava{
     font-size: 20px;
 }
-/* styling link */
+/* styling links */
 a:hover {
     color: rgb(0, 255, 204);
 }
