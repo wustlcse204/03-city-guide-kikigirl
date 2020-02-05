@@ -80,6 +80,11 @@ a:hover {
     border: 1px solid #000000;
     text-align:center;
 } 
+/* styling hotel description */
+#hotels{
+    font-size: 20px;
+}
+
     
 
 
