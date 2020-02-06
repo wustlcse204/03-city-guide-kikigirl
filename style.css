@@ -7,6 +7,7 @@ h1 {
 .column {
     float: left;
     width: 33.33%;
+    text-align: center;
     font-style: italic;
     font-weight: bold;
 }
@@ -88,6 +89,8 @@ a:hover {
 #housing{
     text-align:center; 
 }
+/* styling hotel image headings */
+
 
     
 
