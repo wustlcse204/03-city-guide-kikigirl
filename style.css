@@ -47,7 +47,7 @@ h2{
 /*styling rocky image pic*/
 .rockyimage {
     position: absolute;
-    top: 625px;
+    top: 675px;
     left: 825px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
