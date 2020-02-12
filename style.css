@@ -107,6 +107,21 @@ a:hover {
 #housing{
     text-align:center; 
 }
+/*styling hotel images in 3-column layout*/
+.column2{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+.row2::after {
+    content: "";
+    clear: both;
+}
+/*clearing floats*/
+
 /* styling list heading */
 #others{
     font-size: 20px;
