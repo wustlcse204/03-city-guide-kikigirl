@@ -12,17 +12,19 @@
             <link href = "style.css" type = "text/css" rel = "stylesheet" />
         </head>
         <body>
-            <h1>
-                A Visitor's Guide to Hawaii's Waikoloa Village 
-            </h1>
-            <!--contains navigation links for the website-->
-            <nav>
-                <a href = "#gmap_canvas">Map of Waikoloa Village</a>
-                <br>
-                <a href = "#table1">Beaches</a>
-                <br>
-                <a href = "#list">Hotels and Resorts</a>
-            </nav>
+            <div class = "heading">
+                <h1>
+                    A Visitor's Guide to Hawaii's Waikoloa Village 
+                </h1>
+                <!--contains navigation links for the website-->
+                <nav id = "navigation">
+                    <a href = "#gmap_canvas">Map of Waikoloa Village</a>
+                    <br>
+                    <a href = "#table1">Beaches</a>
+                    <br>
+                    <a href = "#list">Hotels and Resorts</a>
+                </nav>
+            </div>
             <div class = "row">
                 <div class = "column">
                     <figure>
@@ -184,7 +186,7 @@
             </h4>
             <!--this section contains code for an info form-->
             <div class = "signup">
-                <form>
+                <form id = "formsign">
                     <label for="firstname">
                         First Name
                     </label>
