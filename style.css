@@ -37,6 +37,7 @@ div.heading{
 h2{
     color: hsl(187, 70%, 33%);
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 3px 3px rgb(0,0,0);
 }
 /*Font styling for paragraphs*/
 #location {
@@ -106,14 +107,17 @@ a:hover {
 #housing{
     text-align:center; 
 }
-/* stylign list heading */
+/* styling list heading */
 #others{
     font-size: 20px;
     line-height: 1.4em;
 }
-h4{
-    position: relative;
-    top: 15px;
+#formheading{
+    /*position: relative;*/
+    /*top: 15px;*/
+    width: 30%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Styling form*/
 
