@@ -67,6 +67,7 @@ h2{
     position: absolute;
     top: 725px;
     left: 825px;
+    padding-top: 10px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -95,8 +96,11 @@ a:hover {
     margin-left:15%; 
     margin-right:15%;
 }
+#table1 th{
+    background-color: rgb(68, 185, 214);
+}
 #table1 td, #table1 th{
-    border: 2px solid #000000;
+    border: 4px solid #000000;
     text-align:center;
 } 
 /* styling hotel description */
@@ -127,6 +131,13 @@ a:hover {
     font-size: 20px;
     line-height: 1.4em;
 }
+/*styling list*/
+#list{
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: rgb(55, 154, 179);
+    box-shadow: 2px 2px 2px 2px;
+}
 #formheading{
     /*position: relative;*/
     /*top: 15px;*/
@@ -135,9 +146,15 @@ a:hover {
     margin-right: auto;
 }
 /*Styling form*/
-
 input:focus {
     background-color:rgb(0, 255, 204);
+}
+#formsign{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid rgb(22, 35, 207); 
 }
 
 
